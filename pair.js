@@ -81,17 +81,17 @@ router.get('/', async (req, res) => {
 
                         // Send video thumbnail with caption
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://img.youtube.com/vi/-oz_u1iMgf8/maxresdefault.jpg' },
-                            caption: `🎬 *KnightBot MD V2.0 Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtu.be/NjOipI2AoMk`
+                            image: { url: 'https://github.com/qutaybah123/4real-XmD-v2/raw/main/assets/bot_image.jpeg' },
+                            caption: `🎬 *Xploit Bot MD V2.0 Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Follow now https://instagram.com/xploit_.4real`
                         });
                         console.log("🎬 Video guide sent successfully");
 
                         // Send warning message
                         await KnightBot.sendMessage(userJid, {
                             text: `⚠️Do not share this file with anybody⚠️\n 
-┌┤✑  Thanks for using Knight Bot
+┌┤✑  Thanks for using Xploit Bot
 │└────────────┈ ⳹        
-│©2025 Mr Unique Hacker 
+│©2026 Xploit Bot 
 └─────────────────┈ ⳹\n\n`
                         });
                         console.log("⚠️ Warning message sent successfully");
